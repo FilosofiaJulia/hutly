@@ -26,7 +26,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin: 0 auto clamp(8px, 3vw, 19px);
+    margin: 0 auto clamp(8px, 1vw, 19px);
 }
 
 .nav {
@@ -35,8 +35,8 @@ body {
     gap: clamp(28px, 6vw, 50px);
     width: 100%;
     max-width: 993px;
-    padding-top: clamp(21px, 5vw, 33px);
-    padding-bottom: clamp(21px, 5vw, 33px);
+    padding-top: clamp(21px, 3vw, 33px);
+    padding-bottom: clamp(21px, 3vw, 33px);
     margin: 0 auto;
     border-radius: 128px;
     background-color: var(--light);
