@@ -72,6 +72,9 @@ body {
     background-color: var(--light);
     border-radius: 80px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .about__item_big {
@@ -97,6 +100,7 @@ body {
     letter-spacing: clamp(-0.2px, 3vw, -0.4px);
     line-height: 1.18;
     margin-top: clamp(18px, 3vw, 58px);
+    margin-bottom: 0;
 }
 
 .about__cover {
